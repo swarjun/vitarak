@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+  Vitarak — Privacy Policy
+  BEFORE PUBLISHING, replace every [BRACKETED] placeholder:
+    [Company Legal Name], [City, State], [support email], [website],
+    [governing-law city/state], [retention period], and the "Last updated" date.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Vitarak</title>
+<style>
+  :root{--bg:#ffffff;--fg:#1f2328;--muted:#5b6570;--accent:#e8590c;--line:#e5e7eb;--card:#f8fafc;--note:#fff7ed;--noteline:#fed7aa}
+  @media (prefers-color-scheme: dark){:root{--bg:#0f1216;--fg:#e6e8eb;--muted:#9aa4af;--accent:#fb923c;--line:#232a31;--card:#151a20;--note:#1c1710;--noteline:#4a3b1e}}
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.65 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg)}
+  .wrap{max-width:820px;margin:0 auto;padding:32px 20px 64px}
+  header.site{display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:8px}
+  .logo{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,#f97316,#2563eb);display:grid;place-items:center;color:#fff;font-weight:800}
+  .brand{font-weight:700;font-size:18px}
+  h1{font-size:28px;margin:24px 0 4px}
+  h2{font-size:20px;margin:32px 0 8px}
+  h3{font-size:16px;margin:20px 0 6px}
+  .muted{color:var(--muted)}
+  a{color:var(--accent)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:16px 0}
+  ul{padding-left:22px}
+  li{margin:4px 0}
+  footer.site{margin-top:48px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:14px}
+  footer.site a{margin-right:14px;white-space:nowrap}
+  .note{background:var(--note);border:1px solid var(--noteline);border-radius:10px;padding:12px 14px;font-size:14px}
+  code{background:var(--card);border:1px solid var(--line);padding:1px 6px;border-radius:6px;font-size:.9em}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <div class="logo">V</div>
+    <div class="brand">Vitarak</div>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="muted">Last updated: 14 September 2026</p>
+
+  <p>This Privacy Policy explains how <strong>[Company Legal Name]</strong> (“we”, “us”), the operator of the
+  <strong>Vitarak</strong> app, collects, uses, shares, and protects your information when you use Vitarak on
+  Android, iOS, and Windows. Vitarak is a hyperlocal marketplace that connects customers with nearby shops for
+  ordering everyday goods; delivery is arranged by the shop and its own courier.</p>
+
+  <h2>1. Information we collect</h2>
+  <h3>Information you provide</h3>
+  <ul>
+    <li><strong>Account details:</strong> your name, phone number, email address, and whether you register as a customer or a shop.</li>
+    <li><strong>Shop details (for shop owners):</strong> shop name, category, address, phone, service areas (localities and societies), item catalogue, and delivery/fee settings.</li>
+    <li><strong>Delivery addresses:</strong> the addresses you save, and an optional map pin or Google Maps link you attach to help the delivery person find you.</li>
+    <li><strong>Orders &amp; activity:</strong> items and quantities you order, order amounts and status, order history, standing subscriptions, and favourite shops.</li>
+  </ul>
+  <h3>Information collected automatically</h3>
+  <ul>
+    <li><strong>Location (only when you ask):</strong> if you tap “use my location” or the map picker, we access your device’s location <em>at that moment</em> to place a delivery pin. We do <strong>not</strong> track your location in the background.</li>
+    <li><strong>Basic technical data:</strong> standard diagnostics needed to run the app and keep your account signed in (handled by Google Firebase).</li>
+  </ul>
+  <p>We do <strong>not</strong> collect payment card or bank details in the app — orders are paid by <strong>Cash on Delivery</strong>.</p>
+
+  <h2>2. How we use your information</h2>
+  <ul>
+    <li>To create and manage your account and keep you signed in.</li>
+    <li>To place orders, show shops near your locality/society, and pass delivery details to the shop so your order can be fulfilled.</li>
+    <li>To operate recurring subscriptions and scheduled deliveries you set up.</li>
+    <li>To calculate platform fees charged to vendors and maintain vendor wallet balances.</li>
+    <li>To provide support, prevent fraud and abuse, and comply with legal obligations.</li>
+  </ul>
+
+  <h2>3. How we share your information</h2>
+  <ul>
+    <li><strong>With the shop and its delivery person:</strong> when you place an order, the shop receives your name, phone number, delivery address, any map link, and order details, and may share these with the person delivering your order. This is necessary to deliver to you.</li>
+    <li><strong>With our technology provider:</strong> we use <strong>Google Firebase</strong> (authentication, Cloud Firestore database, and Cloud Functions) to run the app. Your data is stored on Google Cloud infrastructure located in <strong>India (asia-south1, Mumbai)</strong>. See Google’s privacy practices at <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</li>
+    <li><strong>Maps &amp; location search:</strong> the optional map picker uses OpenStreetMap tiles and the Nominatim geocoding service to help you find a place.</li>
+    <li><strong>Legal reasons:</strong> where required by law, regulation, or valid legal process, or to protect the rights and safety of users and the public.</li>
+  </ul>
+  <p>We do <strong>not</strong> sell your personal information, and we do not use it for advertising.</p>
+
+  <h2>4. Data retention</h2>
+  <p>We keep your information for as long as your account is active and as needed to provide the service. When you delete your account we remove or anonymise your personal data, except where we must retain certain records (for example, order/transaction records) for legal, tax, or accounting purposes for up to <strong>[retention period, e.g. 7 years]</strong>. See <a href="delete-account.html">Delete your account</a>.</p>
+
+  <h2>5. Your rights and choices</h2>
+  <ul>
+    <li><strong>Access &amp; correction:</strong> you can view and edit your profile, addresses, and (for shops) listings in the app.</li>
+    <li><strong>Deletion:</strong> you can request deletion of your account and associated data — see <a href="delete-account.html">Delete your account</a>.</li>
+    <li><strong>Location:</strong> you can decline the location permission; the app still works — you can type your address instead.</li>
+  </ul>
+
+  <h2>6. Security</h2>
+  <p>We use industry-standard measures, including encryption in transit and access controls provided by Google Firebase, to protect your information. No method of transmission or storage is completely secure, so we cannot guarantee absolute security.</p>
+
+  <h2>7. Children’s privacy</h2>
+  <p>Vitarak is not directed to children under <strong>[13/18]</strong>, and we do not knowingly collect personal information from them. If you believe a child has provided us information, contact us and we will delete it.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>We may update this policy from time to time. We will revise the “Last updated” date above and, where appropriate, notify you in the app.</p>
+
+  <h2>9. Contact us</h2>
+  <p>Questions or requests about this policy or your data:</p>
+  <div class="card">
+    <strong>[Company Legal Name]</strong><br>
+    Email: <a href="mailto:[support email]">[support email]</a><br>
+    [Address — City, State, India]
+  </div>
+
+  <footer class="site">
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="support.html">Support</a>
+    <a href="delete-account.html">Delete account</a>
+    <div style="margin-top:8px">© 2026 [Company Legal Name]. All rights reserved.</div>
+  </footer>
+</div>
+</body>
+</html>
